@@ -1,0 +1,55 @@
+.todo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 15px;
+  border: 6px solid teal;
+  border-radius: 5px;
+  width: 600px;
+  text-align: justify;
+  display: inline-flex;
+}
+
+.input {
+  width: 60%;
+  min-height: 5em;
+  overflow: auto;
+  padding-left: 10px;
+  font-size: 18px;
+  border: 2px solid #7ba7ab;
+  border-radius: 15px;
+  color: black;
+  display: block;
+  resize: vertical;
+}
+
+.buttonCcontainer {
+  width: 250px;
+  padding-left: 15px;
+  display: inline-flex;
+  align-items: center;
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+.button {
+  width: 120px;
+  height: 25px;
+  font-size: 18px;
+  background: #7ba7ab;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.buttonBack {
+  position: fixed;
+  height: 80px;
+  width: 80px;
+  border: none;
+  border-radius: 50%;
+  bottom: 560px;
+  right: 90%;
+  background-image: url(../images/BackIcon.png);
+  background-size: 80px 80px;
+  cursor: pointer;
+}

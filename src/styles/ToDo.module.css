@@ -1,0 +1,12 @@
+.todo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 3px solid teal;
+  border-radius: 15px;
+  width: 600px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
